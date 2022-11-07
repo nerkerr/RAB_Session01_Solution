@@ -9,6 +9,17 @@
     <VendorId>com.typepad.thebuildingcoder</VendorId>
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
   </AddIn>
+
+	<AddIn Type="Command">
+		<Text>Fizz Buzz</Text>
+		<Description>Some description for RAB_Session01_Solution</Description>
+		<Assembly>RAB_Session01_Solution.dll</Assembly>
+		<FullClassName>RAB_Session01_Solution.CmdFizzBuzz</FullClassName>
+		<ClientId>88ec5304-a6c7-475f-ab8a-e3ce865450c4</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+	</AddIn>
+	
   <AddIn Type="Application">
     <Name>Application RAB_Session01_Solution</Name>
     <Assembly>RAB_Session01_Solution.dll</Assembly>
